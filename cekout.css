@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+	background: #F4F4F4;
+}
+
+.header  {
+	background: #999000;
+	padding: 10px;
+}
+
+.header a {
+	font-size: 20pt;
+	font-weight: bold;
+	color: #F5F5F5;
+}
+
+.navigasi {
+	padding: 0;
+	background: #999000;
+	padding: 5px;
+}
+
+.opsi-navigasi{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 11pt;
+	color: white;
+}
+
+.opsi-nya {
+	border: 1px solid red;
+	text-align: center;
+	background: #555FFF;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+.opsi-nya:hover {
+	background: black;
+	color: white;
+}
+form {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.kasir-wrapper {
+	width: 60%;
+	border: 1px solid #A9A9A9;
+	background: #fff;
+	text-align: right;
+	margin: auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.kasir-wrapper a {
+	font-size: 18pt;
+	font-family: sans-serif;
+}
+
+.gambar {
+	margin: auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #A9A9A9;
+	text-align: center;
+}
+
+.foto {
+	width: 80%;
+	margin: auto;
+	height: 60vh;
+}
+
+label {
+	font-size: 10pt;
+}
+
+input {
+	border: 0;
+	font-size: 15pt;
+	background: none;
+	outline: 0;
+	padding: 5px;
+	text-align: right;
+	width: 40%;
+	margin-right: 10px;
+}
+
+.nama-pembeli {
+	border-bottom: 1px solid grey;
+	font-size: 11pt;
+	margin: 2px;
+	margin-right: 20px;
+}
+
+.no-ponsel {
+	border-bottom: 1px solid grey;
+	font-size: 11pt;
+	margin: 2px;
+	margin-right: 20px;
+}
+
+.garis {
+	border-bottom: 1px solid #F0F0F0;
+	width: 90%;
+	margin: auto;
+}
+
+textarea {
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 20%;
+	max-height: 20%;
+	margin-right: 5%;
+	outline: none;
+}
+
+button {
+	margin: 5px;
+	width: 90%;
+	background: salmon;
+	border: 0;
+	outline:0;
+	font-size: 11pt;
+	color: #fff;
+}
+
+.pembayaran-wrapper {
+	text-align: center;
+}
+
+.kode-pembayaran {
+	border: 1px solid grey;
+	color: black;
+	width: 50%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+.metode-nya {
+	margin: 6px auto;
+	border: 1px solid #F0F0F0;
+	width: 60%;
+	padding: 5px;
+	font-weight: bold;
+	background: salmon;
+	color: white;
+	margin-bottom: 7px;
+}
+
+#pembayaran {
+	display: none;
+}
+
+.teks {
+   text-align: center;
+}
+
+.teks a {
+   font-size: 12pt;
+}
+
+
+
+@media(min-width:0px) and (max-width:800px) {
+.header a {
+	font-size: 200%;
+}
+
+.kasir-wrapper {
+	width: 99%;
+}
+
+input {
+	width: 60%;
+}
+
+textarea {
+	font-size: 6vw;
+}
+
+button {
+	font-size: 5.7vw;
+}
+}

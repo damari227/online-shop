@@ -1,0 +1,127 @@
+* {
+	margin:0;
+}
+
+.header {
+	background: #999000;
+	padding: 10px;
+}
+
+.header a {
+	font-size: 20pt;
+	color: white;
+}
+
+.keluar {
+   text-align: right;
+}
+
+.keluar button {
+	font-size: 13pt;
+	background: red;
+	border:0;
+	color: white;
+}
+
+.container {
+	width: 90%;
+	display: flex;
+}
+
+.tambah-metode {
+	width: 25%;
+}
+
+.tambah-metode .form-group {
+	border-right: 1px solid grey;
+	text-align: center;
+	min-height: 470px;
+}
+
+.tambah-metode a {
+	text-decoration: none;
+	background: #999000;
+	color: #fff;
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+}
+
+h3 {
+	border-bottom: 1px solid grey;
+	background: #F5F5F5;
+	padding: 5px;
+}
+
+.tambah-metode input {
+	width: 90%;
+}
+
+button {
+	margin-top: 10px;
+}
+
+.content-wrapper {
+	text-align: center;
+	width: 100%;
+}
+
+.metode-wrapper {
+    width: 80%;
+	margin: auto;
+	border: 1px solid #A9A9A9;
+	margin-top: 20px;
+}
+
+.garis {
+	border-bottom: 1px solid grey;
+}
+
+.mtd1 {
+	background: blue;
+	font-size: 19pt;
+	color: white;
+	font-weight: bold;
+}
+
+.metod {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.mtd {
+	font-size: 14pt;
+	padding: 10px;
+}
+
+.nama-row {
+	font-size: 9pt;
+}
+
+.aksi {
+	border-top: 1px solid grey;
+}
+
+.aksi button {
+	margin: 5px;
+	background: salmon;
+	text-decoration: none;
+	padding: 3px;
+	border:0;
+	font-weight: bold;
+}
+
+
+@media (max-width:1010px) {
+.content-wrapper {
+	display: inline;
+}
+
+.tambah-metode {
+	width: 70%;
+}
+
+.metode-wrapper {
+	width: 90%;
+}
+}

@@ -1,0 +1,97 @@
+* {
+	margin:0;
+}
+
+.header  {
+	background: #999000;
+	padding: 10px;
+}
+
+.header a {
+	font-size: 20pt;
+	font-weight: bold;
+	color: #F5F5F5;
+}
+
+.wrapper {
+	width: 60%;
+	margin: auto;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+	border-bottom: 2px solid black;
+	width: 40%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+form {
+	text-align: center;
+}
+
+#foto {
+	width: 43%;
+	margin: auto;
+	padding: 3px;
+}
+
+input {
+	border: 0;
+	border-bottom: 1px solid black;
+	margin: 5px;
+	font-size: 11pt;
+	outline: 0;
+}
+
+a {
+	
+	color: grey;
+}
+
+textarea {
+	min-width: 60%;
+	max-width: 60%;
+	min-height: 100px;
+	max-height: 100px;
+	outline:0;
+}
+
+button {
+	border: 0;
+	background: #999000;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	width: 100px;
+}
+
+@media(min-width:0px) and (max-width:800px) {
+.header a {
+	font-size: 200%;
+}
+
+h2 {
+	width: 90%;
+	font-size: 7vw;
+}
+
+#foto {
+	width: 80%;
+	font-size: 4vw;
+}
+
+input {
+	font-size: 4.6vw;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 40%;
+	max-height: 40%;
+	border: 1px solid grey;
+	font-size: 4vw;
+}
+}
